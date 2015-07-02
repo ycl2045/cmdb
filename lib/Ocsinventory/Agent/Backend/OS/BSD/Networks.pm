@@ -113,15 +113,15 @@ sub run {
 
       $common->addNetwork({
 	  
-	  DESCRIPTION => $description,
-	  IPADDRESS => $ipaddress,
-	  IPDHCP => _ipdhcp($description),
-	  IPGATEWAY => ($status?$ipgateway:undef),
-	  IPMASK => $ipmask,
-	  IPSUBNET => ($status?$ipsubnet:undef),
-	  MACADDR => $macaddr,
-	  STATUS => $status?"Up":"Down",
-	  TYPE => $type
+	  description => $description,
+	  ipaddress => $ipaddress,
+	  ipdhcp => _ipdhcp($description),
+	  ipgateway => ($status?$ipgateway:undef),
+	  ipmask => $ipmask,
+	  ipsubnet => ($status?$ipsubnet:undef),
+	  macaddr => $macaddr,
+	  status => $status?"Up":"Down",
+	  type => $type
 
       });
   }

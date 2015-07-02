@@ -24,7 +24,7 @@ sub run {
 
     my $ip=join "/", @ip;
 
-    $common->setHardware({IPADDR => $ip});
+    $common->setHardware({ipaddr => $ip});
 }
 
 1;

@@ -23,9 +23,9 @@ sub run {
 		my $type = $2;
 		my $manufacturer = $3;
 		$common->addController({
-                        'NAME'          => $name,
-                        'MANUFACTURER'  => $manufacturer,
-                        'TYPE'          => $type,
+                        'name'          => $name,
+                        'manufacturer'  => $manufacturer,
+                        'type'          => $type,
                 });
 	}
 }

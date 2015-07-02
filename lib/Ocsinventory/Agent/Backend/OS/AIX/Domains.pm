@@ -17,7 +17,7 @@ sub run {
   $domain=~s/^.\.(.)/$1/;
 
   $common->setHardware({
-      WORKGROUP => $domain
+      workgroup => $domain
     });
 
 }

@@ -112,15 +112,15 @@ sub run {
       $ipsubnet = ip_bintoip($subnet,4);
     }
     $common->addNetwork({
-	DESCRIPTION => $description,
-	IPADDRESS => $ipaddress,
-	IPDHCP => $ipdhcp,
-	IPGATEWAY => $gateway,
-	IPMASK => $ipmask,
-	IPSUBNET => $ipsubnet,
-	MACADDR => $macaddr,
-	STATUS => $status,
-	TYPE => $type,
+	description => $description,
+	ipaddress => $ipaddress,
+	ipdhcp => $ipdhcp,
+	ipgateway => $gateway,
+	ipmask => $ipmask,
+	ipsubnet => $ipsubnet,
+	macaddr => $macaddr,
+	status => $status,
+	tYPE => $type,
       });		
   }
 }

@@ -10,8 +10,8 @@ sub run {
   ($YEAR+1900), ($MONTH+1), $DAY, $HOUR, $MIN, $SEC;
 
   $common->setAccessLog ({
-      USERID => 'N/A',
-      LOGDATE => $date
+      userid => 'N/A',
+      logdate => $date
     });
 
 }

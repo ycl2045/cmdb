@@ -24,6 +24,6 @@ sub run {
     $uptime=sprintf "%02d-%02d-%02d %02d:%02d:%02d", ($UYEAR-70), $UMONTH, ($UDAY-1), $UHOUR, $UMIN, $USEC;
 
     chomp(my $DeviceType =`uname -m`);
-    $common->setHardware({ DESCRIPTION => "$DeviceType/$uptime" });
+    $common->setHardware({ description => "$DeviceType/$uptime" });
 }
 1;

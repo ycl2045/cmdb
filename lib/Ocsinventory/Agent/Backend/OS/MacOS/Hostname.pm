@@ -21,7 +21,7 @@ sub run {
 
   $hostname = $h->{'local_host_name'};
   
-  $common->setHardware ({NAME => $hostname}) if $hostname;
+  $common->setHardware ({name => $hostname}) if $hostname;
 }
 
 1;

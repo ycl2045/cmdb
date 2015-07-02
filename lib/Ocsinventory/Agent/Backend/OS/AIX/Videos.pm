@@ -11,8 +11,8 @@ sub run {
 		if(/graphics|vga|video/i){
 			if(/^\S+\s([^:]+):\s*(.+?)(?:\(([^()]+)\))?$/i){
 				 $common->addVideo({
-	  				'CHIPSET'  => $1,
-	  				'NAME'     => $2,
+	  				'chipset'  => $1,
+	  				'name'     => $2,
 				});
 				
 			}

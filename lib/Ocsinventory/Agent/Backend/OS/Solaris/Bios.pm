@@ -146,11 +146,11 @@ sub run {
  
   # Writing data
   $common->setBios ({
-      BVERSION => $BiosVersion,
-      BDATE => $BiosDate,
-      SMANUFACTURER => $SystemManufacturer,
-      SMODEL => $SystemModel,
-      SSN => $SystemSerial     
+      bversion => $BiosVersion,
+      bdate => $BiosDate,
+      smanufacturer => $SystemManufacturer,
+      smodel => $SystemModel,
+      ssn => $SystemSerial
     });
 }
 

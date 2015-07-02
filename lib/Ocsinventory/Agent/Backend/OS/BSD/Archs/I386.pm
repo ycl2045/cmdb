@@ -41,19 +41,19 @@ sub run {
 
 # Writing data
   $common->setBios ({
-      SMANUFACTURER => $SystemManufacturer,
-      SMODEL => $SystemModel,
-      SSN => $SystemSerial,
-      BMANUFACTURER => $BiosManufacturer,
-      BVERSION => $BiosVersion,
-      BDATE => $BiosDate,
+      smanufacturer => $SystemManufacturer,
+      smodel => $SystemModel,
+      ssn => $SystemSerial,
+      bmanufacturer => $BiosManufacturer,
+      bversion => $BiosVersion,
+      bdate => $BiosDate,
     });
 
   $common->setHardware({
 
-      PROCESSORT => $processort,
-      PROCESSORN => $processorn,
-      PROCESSORS => $processors
+      processort => $processort,
+      processorn => $processorn,
+      processors => $processors
 
     });
 

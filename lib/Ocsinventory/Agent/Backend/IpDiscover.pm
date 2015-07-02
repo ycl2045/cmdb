@@ -8,7 +8,7 @@ sub check {
     my $prologresp = $params->{prologresp};
     my $mem = $params->{mem};
 
-    return unless ($prologresp && $prologresp->getOptionsInfoByName("IPDISCOVER"));
+    return unless ($prologresp && $prologresp->getOptionsInfoByName("ipdiscover"));
 
     1;
 }

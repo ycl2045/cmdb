@@ -19,9 +19,9 @@ sub run {
     # add sound cards
     foreach my $sound (@$data){
         $common->addSound({
-            'NAME'          => $sound,
-            'MANUFACTURER'  => $sound,
-            'DESCRIPTION'   => $sound,
+            'name'          => $sound,
+            'manufacturer'  => $sound,
+            'description'   => $sound,
         });
     }
 }

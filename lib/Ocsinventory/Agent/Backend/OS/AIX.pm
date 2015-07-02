@@ -29,9 +29,9 @@ sub run {
 
   $OSVersion =~ s/(.0)*$//;
   $common->setHardware({
-      OSNAME => "$OSName $OSVersion",
-      OSCOMMENTS => $OSComment,
-      OSVERSION => $OSLevel,
+      osname => "$OSName $OSVersion",
+      oscomments => $OSComment,
+      osversion => $OSLevel,
     });
 }
 1;

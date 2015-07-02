@@ -79,14 +79,14 @@ sub run {
 		  $ipsubnet = ip_bintoip($binsubnet,4);     
 
 		  $common->addNetwork({
-		  DESCRIPTION => $description,
-		  IPADDRESS => $ipaddress,	  
-		  IPGATEWAY => $ipgateway,
-		  IPMASK => $ipmask,
-		  IPSUBNET => $ipsubnet,
-		  MACADDR => $macaddr,
-		  STATUS => $status?"Up":"Down",
-		  TYPE => $type,
+		  description => $description,
+		  ipaddress => $ipaddress,
+		  ipgateway => $ipgateway,
+		  ipmask => $ipmask,
+		  ipsubnet => $ipsubnet,
+		  macaddr => $macaddr,
+		  status => $status?"Up":"Down",
+		  type => $type,
 		  });
 		}
 	  }	
@@ -128,14 +128,14 @@ sub run {
 			  $ipsubnet = ip_bintoip($binsubnet,4);     
 
 			  $common->addNetwork({
-			  DESCRIPTION => $description,
-			  IPADDRESS => $ipaddress,	  
-			  IPGATEWAY => $ipgateway,
-			  IPMASK => $ipmask,
-			  IPSUBNET => $ipsubnet,
-			  MACADDR => $macaddr,
-			  STATUS => $status?"Up":"Down",
-			  TYPE => $type,
+			  description => $description,
+			  ipaddress => $ipaddress,
+			  ipgateway => $ipgateway,
+			  ipmask => $ipmask,
+			  ipsubnet => $ipsubnet,
+			  macaddr => $macaddr,
+			  status => $status?"Up":"Down",
+			  type => $type,
 			  });
 			}
 		  }

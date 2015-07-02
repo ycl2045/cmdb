@@ -49,15 +49,15 @@ sub run {
 		}
 		$common->addStorages(
 			{
-				NAME         => $dev,
-				MANUFACTURER => $manufacturer,
-				MODEL        => $model,
-				DESCRIPTION  => $desc,
-				TYPE         => $type,
-				DISKSIZE     => $size,
-				SERIALNUMBER => $serialnumber,
-				FIRMWARE     => $firmware,
-				SCSI_UNID    => $luwwnid,
+				name         => $dev,
+				manufacturer => $manufacturer,
+				model        => $model,
+				description  => $desc,
+				type         => $type,
+				disksize     => $size,
+				serialnumber => $serialnumber,
+				firmware     => $firmware,
+				scsi_unid    => $luwwnid,
 			}
 		);
 	}

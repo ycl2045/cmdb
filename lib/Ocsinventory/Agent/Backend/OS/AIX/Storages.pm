@@ -41,12 +41,12 @@ sub run {
 	  if ((/^FC .+/) && $flag) {$flag=0;last}
 	}
 	$common->addStorages({
-	  NAME => $device,
-	  MANUFACTURER => $manufacturer,
-	  MODEL => $model,
-	  DESCRIPTION => $description,
-	  TYPE => 'disk',
-	  DISKSIZE => $capacity
+	  name => $device,
+	  manufacturer => $manufacturer,
+	  model => $model,
+	  description => $description,
+	  type => 'disk',
+	  disksize => $capacity
     });
 	$n++;
   }
@@ -76,12 +76,12 @@ sub run {
 		}
 	}
         $common->addStorages({
-          MANUFACTURER => "VIO Disk",
-          MODEL => "Virtual Disk",
-          DESCRIPTION => $description,
-          TYPE => 'disk',
-	  NAME => $device,
-          DISKSIZE => $capacity
+          manufacturer => "VIO Disk",
+          model => "Virtual Disk",
+          description => $description,
+          type => 'disk',
+	  name => $device,
+          disksize => $capacity
     });
         $n++;
   }
@@ -117,12 +117,12 @@ sub run {
 		if ((/^FC .+/) && $flag) {$flag=0;last}
       }
       $common->addStorages({
-	    NAME => $device,
-	    MANUFACTURER => $manufacturer,
-	    MODEL => $model,
-	    DESCRIPTION => $description,
-	    TYPE => 'cd',
-	    DISKSIZE => $capacity
+	    name => $device,
+	    manufacturer => $manufacturer,
+	    model => $model,
+	    description => $description,
+	    type => 'cd',
+	    disksize => $capacity
       });
       $n++;
     }
@@ -157,12 +157,12 @@ sub run {
 		if ((/^FC .+/) && $flag) {$flag=0;last}
    	  }
    	  $common->addStorages({
-	    NAME => $device,
-	    MANUFACTURER => $manufacturer,
-	    MODEL => $model,
-	    DESCRIPTION => $description,
-	    TYPE => 'tape',
-	    DISKSIZE => $capacity
+	    name => $device,
+	    manufacturer => $manufacturer,
+	    model => $model,
+	    description => $description,
+	    type => 'tape',
+	    disksize => $capacity
       });
       $n++;
     }
@@ -192,12 +192,12 @@ sub run {
       #On le force en retour taille disquette non affichable
       $capacity ="";
       $common->addStorages({
-	    NAME => $device,
-	    MANUFACTURER => 'N/A',
-	    MODEL => 'N/A',
-	    DESCRIPTION => $description,
-	    TYPE => 'floppy',
-	    DISKSIZE => ''
+	    name => $device,
+	    manufacturer => 'N/A',
+	    model => 'N/A',
+	    description => $description,
+	    type => 'floppy',
+	    disksize => ''
       });
 	  $n++;
     }

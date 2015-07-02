@@ -75,15 +75,15 @@ sub run {
 
       $common->addNetworks({
 
-          DESCRIPTION => $description,
-          IPADDRESS => $ipaddress,
-          IPGATEWAY => $ipgateway,
-          IPMASK => $ipmask,
-          IPSUBNET => $ipsubnet,
-          MACADDR => $macaddr,
-          STATUS => $status,
-          SPEED => $speed,
-          TYPE => $type,
+          description => $description,
+          ipaddress => $ipaddress,
+          ipgateway => $ipgateway,
+          ipmask => $ipmask,
+          ipsubnet => $ipsubnet,
+          macaddr => $macaddr,
+          status => $status,
+          speed => $speed,
+          type => $type,
 			     });
 
      }; # If

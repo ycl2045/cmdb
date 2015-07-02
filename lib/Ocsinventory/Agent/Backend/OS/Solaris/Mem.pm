@@ -24,8 +24,8 @@ sub run {
   }
 
   $common->setHardware({
-      MEMORY =>  $PhysicalMemory,
-      SWAP =>    $SwapFileSize
+      memory =>  $PhysicalMemory,
+      swap =>    $SwapFileSize
       });
 }
 

@@ -45,8 +45,8 @@ sub run {
   $domain = 'WORKGROUP' unless $domain;
 
   $common->setHardware({
-      WORKGROUP => $domain,
-      DNS => $dns
+      workgroup => $domain,
+      dns => $dns
     });
 
 }

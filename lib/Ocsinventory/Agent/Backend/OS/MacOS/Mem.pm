@@ -54,13 +54,13 @@ sub run {
                 $size *= 1024;
         }
         $common->addMemory({
-            'CAPACITY'      => $size,
-            'SPEED'         => $memory->{'dimm_speed'},
-            'TYPE'          => $memory->{'dimm_type'},
-            'SERIALNUMBER'  => $memory->{'dimm_serial_number'},
-            'DESCRIPTION'   => $memory->{'dimm_part_number'},
-            'NUMSLOTS'      => $slot,
-            'CAPTION'       => 'Status: '.$memory->{'dimm_status'},
+            'capacity'      => $size,
+            'speed'         => $memory->{'dimm_speed'},
+            'type'          => $memory->{'dimm_type'},
+            'serialnumber'  => $memory->{'dimm_serial_number'},
+            'description'   => $memory->{'dimm_part_number'},
+            'numslots'      => $slot,
+            'caption'       => 'Status: '.$memory->{'dimm_status'},
         });
     }
 }

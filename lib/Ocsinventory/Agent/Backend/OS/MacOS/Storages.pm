@@ -65,13 +65,13 @@ sub run {
       $model =~ s/\s*$manufacturer\s*//i;
 
       $devices->{$storage->{'_name'}} = {
-        NAME => $storage->{'name'},
-        SERIAL => $storage->{'device_serial'},
-        DISKSIZE => $size,
-        FIRMWARE => $storage->{'device_revision'},
-        MANUFACTURER => $manufacturer,
-        DESCRIPTION => $description,
-        MODEL => $model
+        name => $storage->{'name'},
+        serial => $storage->{'device_serial'},
+        disksize => $size,
+        firmware => $storage->{'device_revision'},
+        manufacturer => $manufacturer,
+        description => $description,
+        model => $model
       };
     }
   } 
@@ -98,13 +98,13 @@ sub run {
       my $size;
       
       $devices->{$storage->{'_name'}} = {
-        NAME => $storage->{'_name'},
-        SERIAL => $storage->{'device_serial'},
-        DISKSIZE => $size,
-        FIRMWARE => $storage->{'device_revision'},
-        MANUFACTURER => $manufacturer,
-        DESCRIPTION => $description,
-        MODEL => $model
+        name => $storage->{'_name'},
+        serial => $storage->{'device_serial'},
+        disksize => $size,
+        firmware => $storage->{'device_revision'},
+        manufacturer => $manufacturer,
+        description => $description,
+        model => $model
       };
     
     }

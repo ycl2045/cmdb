@@ -40,7 +40,7 @@ sub run {
   }
 
 
-  $common->setHardware({IPADDR => $ip});
+  $common->setHardware({ipaddr => $ip});
 }
 
 1;

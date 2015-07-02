@@ -20,7 +20,7 @@ sub run {
      if ( /(^\d+\.\d+\.\d+\.\d+)\s+/ )
      {
         $ip=$1;
-        $common->setHardware({IPADDR => $ip});
+        $common->setHardware({ipaddr => $ip});
      }
   }
 }

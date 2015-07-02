@@ -56,13 +56,13 @@ sub run {
                  };
                  #print "vendor $vendor ref $ref type $type description $description path $path size $size\n";
                  $common->addStorages({
-                    MANUFACTURER => $vendor,
-                    MODEL => $ref,
-                    NAME => $devdsk,
-                    DESCRIPTION => $description,
-                    TYPE => $type,
-                    DISKSIZE => $size,
-                    FIRMWARE => $revlvl,
+                    manufacturer => $vendor,
+                    model => $ref,
+                    name => $devdsk,
+                    description => $description,
+                    type => $type,
+                    disksize => $size,
+                    firmware => $revlvl,
 				});
 	       };
 	    };
@@ -71,12 +71,12 @@ sub run {
 	   if ( /^\s+(\/dev\/rmt\/\Sm)\s+/ ) {
 	      $devdsk=$1;
 	   $common->addStorages({
-                 MANUFACTURER => $vendor,
-                 MODEL => $ref,
-                 NAME => $devdsk,
-                 DESCRIPTION => $description,
-                 TYPE => $type,
-                 DISKSIZE => ''
+                 manufacturer => $vendor,
+                 model => $ref,
+                 name => $devdsk,
+                 description => $description,
+                 type => $type,
+                 disksize => ''
 				   });
 	    };
          };

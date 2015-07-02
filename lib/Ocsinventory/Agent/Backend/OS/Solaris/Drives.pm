@@ -46,11 +46,11 @@ sub run {
       else {$type="";}	 
 #print "FILESYS ".$filesystem." FILETYP ".$type." TOTAL ".$total." FREE ".$free." VOLUMN ".$volumn."\n";
       $common->addDrive({
-	  FREE => $free,
-	  FILESYSTEM => $filesystem,
-	  TOTAL => $total,
-	  TYPE => $type,
-	  VOLUMN => $volumn
+	  free => $free,
+	  filesystem => $filesystem,
+	  total => $total,
+	  type => $type,
+	  volumn => $volumn
 	  })
 
     }

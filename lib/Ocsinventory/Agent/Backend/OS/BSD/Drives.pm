@@ -24,11 +24,11 @@ sub run {
           $type = $6;
   
         $common->addDrive({
-            FREE => $free,
-            FILESYSTEM => $filesystem,
-            TOTAL => $total,
-            TYPE => $type,
-            VOLUMN => $volumn
+            free => $free,
+            filesystem => $filesystem,
+            total => $total,
+            type => $type,
+            volumn => $volumn
           });
       }
     }

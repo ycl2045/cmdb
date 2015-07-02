@@ -23,9 +23,9 @@ sub run {
            $info=$4;
            $type=$1;
            $common->addController({
-                        'NAME'          => $name,
-                        'MANUFACTURER'  => "$interface $info",
-                        'TYPE'          => $type,
+                        'name'          => $name,
+                        'manufacturer'  => "$interface $info",
+                        'type'          => $type,
            });
         };
      };

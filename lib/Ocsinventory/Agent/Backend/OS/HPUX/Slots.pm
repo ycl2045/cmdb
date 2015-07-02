@@ -23,11 +23,10 @@ sub run {
            $info=$4;
            $type=$1;
            $common->addSlots({
-               DESCRIPTION =>  "$name",
-               DESIGNATION =>  "$interface $info",
-               NAME            =>  "$type",
-               STATUS          =>  "OK",
-
+               description =>  "$name",
+               designation =>  "$interface $info",
+               name            =>  "$type",
+               status          =>  "OK",
            });
         };
      };

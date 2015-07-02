@@ -117,15 +117,15 @@ sub run {
         my $mask = ip_bintoip($binmask,4);
         $common->addNetwork({
 
-            DESCRIPTION => $description,
-            IPADDRESS => ($status?$ipaddress:undef),
-            IPDHCP => _ipdhcp($description),
-            IPGATEWAY => ($status?$ipgateway:undef),
-            IPMASK => ($status?$mask:undef),
-            IPSUBNET => ($status?$ipsubnet:undef),
-            MACADDR => $macaddr,
-            STATUS => ($status?"Up":"Down"),
-            TYPE => ($status?$type:undef)
+            description => $description,
+            ipaddress => ($status?$ipaddress:undef),
+            ipdhcp => _ipdhcp($description),
+            ipgateway => ($status?$ipgateway:undef),
+            ipmask => ($status?$mask:undef),
+            ipsubnet => ($status?$ipsubnet:undef),
+            macaddr => $macaddr,
+            status => ($status?"up":"down"),
+            type => ($status?$type:undef)
 
         });
     }

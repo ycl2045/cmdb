@@ -55,12 +55,12 @@ sub run {
   }
 
   $common->setBios ({
-      BVERSION => $BiosVersion,
-      BDATE => $BiosDate,
-      BMANUFACTURER => "HP",
-      SMANUFACTURER => "HP",
-      SMODEL => $SystemModel,
-      SSN => $SystemSerial,
+      bversion => $BiosVersion,
+      bdate => $BiosDate,
+      bmanufacturer => "HP",
+      smanufacturer => "HP",
+      smodel => $SystemModel,
+      ssn => $SystemSerial,
     });
 }
 

@@ -296,12 +296,12 @@ sub run {
   #print "cpu_core: " . $cpu_core . "\n";
   #print "cpu_thread: " . $cpu_thread . "\n";
   
-  $current->{MANUFACTURER} = "SPARC" ;
-  $current->{SPEED} = $cpu_speed if $cpu_speed;
-  $current->{TYPE} = $cpu_type if $cpu_type;
-  $current->{NUMBER} = $cpu_slot if $cpu_slot;
-  $current->{CORE} = $cpu_core if $cpu_core;
-  $current->{THREAD} = $cpu_thread if $cpu_thread;
+  $current->{manufacturer} = "SPARC" ;
+  $current->{speed} = $cpu_speed if $cpu_speed;
+  $current->{type} = $cpu_type if $cpu_type;
+  $current->{number} = $cpu_slot if $cpu_slot;
+  $current->{core} = $cpu_core if $cpu_core;
+  $current->{thread} = $cpu_thread if $cpu_thread;
   $common->addCPU($current);
   
   

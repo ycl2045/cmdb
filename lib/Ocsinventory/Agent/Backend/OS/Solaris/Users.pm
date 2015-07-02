@@ -15,7 +15,7 @@ sub run {
 
   my $UsersLoggedIn = join "/", keys %user;
 
-  $common->setHardware ({ USERID => $UsersLoggedIn });
+  $common->setHardware ({ userid => $UsersLoggedIn });
 
 }
 

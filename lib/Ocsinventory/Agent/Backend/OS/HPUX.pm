@@ -21,9 +21,9 @@ sub run {
   chomp($OSComment = `uname -l`);
 
   $common->setHardware({
-      OSNAME => $OSName,
-      OSCOMMENTS => $OSComment,
-      OSVERSION => $OSVersion,
+      osname => $OSName,
+      oscomments => $OSComment,
+      osversion => $OSVersion,
     });
 
 }

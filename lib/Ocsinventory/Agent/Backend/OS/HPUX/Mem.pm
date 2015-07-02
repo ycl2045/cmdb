@@ -20,8 +20,8 @@ sub run {
 
 
   $common->setHardware({
-      MEMORY =>  $mem,
-      SWAP =>    $swap,
+      memory =>  $mem,
+      swap =>    $swap,
 			 });
 }
 

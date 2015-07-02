@@ -51,11 +51,11 @@ sub run {
 
 
     $common->setHardware({
-        PROCESSORT  => $processort,
-        PROCESSORN  => $processorn,
-        PROCESSORS  => $processors,
-        MEMORY      => $mem,
-		UUID		=> $uuid,
+        processort  => $processort,
+        processorn  => $processorn,
+        processors  => $processors,
+        memory      => $mem,
+		uuid		=> $uuid,
     });
 }
 

@@ -25,7 +25,7 @@ sub run {
 # If no domain name, we send "WORKGROUP"
   $domain = 'WORKGROUP' unless $domain;
   $common->setHardware({
-      WORKGROUP => $domain
+      workgroup => $domain
       });
 }
 

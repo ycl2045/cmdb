@@ -29,16 +29,16 @@ sub run {
          elsif ( /(\w+IMM)\s+(\w+)\s+(\S+)\s+(\w+IMM)\s+(\w+)\s+(\S+)/ )
          {
              $common->addMemories({
-                   CAPACITY => $3,
-                   CAPTION => $2 ,
-                   NUMSLOTS => "1" ,
-                   TYPE => $1,
+                   capacity => $3,
+                   caption => $2 ,
+                   numslots => "1" ,
+                   type => $1,
 			    });
              $common->addMemories({
-                   CAPACITY => $6,
-                   CAPTION => $5 ,
-                   NUMSLOTS => "1" ,
-                   TYPE => $4,
+                   capacity => $6,
+                   caption => $5 ,
+                   numslots => "1" ,
+                   type => $4,
 			    });
           } 
       }

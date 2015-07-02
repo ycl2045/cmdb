@@ -23,8 +23,8 @@ sub run {
         $description = $slot->{'sppci_link-width'}." ".$slot->{'sppci_bus'}." ".$slot->{'sppci_slot_name'};
         
         $common->addSlot({
-            NAME      	=> $name,
-            DESCRIPTION	=> $description,
+            name      	=> $name,
+            description	=> $description,
         });
 
         $name = $description = $status = undef;

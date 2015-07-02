@@ -15,7 +15,7 @@ sub run {
     if(/^\s*inet\s+(\S+).*/){($1=~/127.+/)?next:push @ip, $1};
   }
   $ip=join "/", @ip;
-  $common->setHardware({IPADDR => $ip});
+  $common->setHardware({ipaddr => $ip});
 }
 
 1;

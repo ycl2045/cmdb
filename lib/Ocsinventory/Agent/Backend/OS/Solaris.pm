@@ -41,10 +41,10 @@ sub run {
   $HWDescription = "$platform($karch)/$proct HostID=$hostid";
 
   $common->setHardware({
-      OSNAME => "$OSName $OSLevel",
-      OSCOMMENTS => $OSComment,
-      OSVERSION => $OSVersion,
-      DESCRIPTION => $HWDescription
+      osname => "$OSName $OSLevel",
+      oscomments => $OSComment,
+      osversion => $OSVersion,
+      description => $HWDescription
     });
 }
 

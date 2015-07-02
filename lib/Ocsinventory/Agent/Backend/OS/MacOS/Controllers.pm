@@ -51,10 +51,10 @@ sub run {
     	      }
             
               $common->addController({
-              		CAPTION => $caption,
-               	 	DESCRIPTION => $description,
-               		NAME => $name,
-               	 	TYPE => $type,           
+              		caption => $caption,
+               	 	description => $description,
+               		name => $name,
+               	 	type => $type,
               });            	
 
 	      $caption = $description = $name = $type = undef;

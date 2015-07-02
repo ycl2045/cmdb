@@ -34,11 +34,11 @@ sub run {
     next if $filesystem =~ /procfs/;
 
     $common->addDrive({
-	FREE => $free,
-	FILESYSTEM => $filesystem,
-	TOTAL => $total,
-	TYPE => $type,
-	VOLUMN => $volumn
+	free => $free,
+	filesystem => $filesystem,
+	total => $total,
+	type => $type,
+	volumn => $volumn
 	});
 
   }

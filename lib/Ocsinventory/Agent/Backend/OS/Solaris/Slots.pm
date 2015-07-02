@@ -51,10 +51,10 @@ sub run {
     }
     if($flag && $flag_pci){
       $common->addSlot({
-          DESCRIPTION =>  $description,
-          DESIGNATION =>  $designation,
-          NAME            =>  $name,
-          STATUS          =>  $status,
+          description =>  $description,
+          designation =>  $designation,
+          name            =>  $name,
+          status          =>  $status,
           });
     }
     if(/^=+\s+IO Cards/){$flag_pci = 1;}
@@ -83,10 +83,10 @@ sub run {
 
         if($flag && $flag_pci){
         $common->addSlot({
-          DESCRIPTION =>  $description,
-          DESIGNATION =>  $designation,
-          NAME            =>  $name,
-          STATUS          =>  $status,
+          description =>  $description,
+          designation =>  $designation,
+          name            =>  $name,
+          status          =>  $status,
           });
         }
         if(/^=+\S+\s+IO Cards/){$flag_pci = 1;  }
@@ -102,10 +102,10 @@ sub run {
 	$designation=$pci[3];
 	$status="";
 	$common->addSlot({
-          DESCRIPTION =>  $description,
-          DESIGNATION =>  $designation,
-          NAME            =>  $name,
-          STATUS          =>  $status,
+          description =>  $description,
+          designation =>  $designation,
+          name            =>  $name,
+          status          =>  $status,
           });
 	
 	}

@@ -86,9 +86,9 @@ sub run {
   
   $common->setHardware({
 
-      PROCESSORT => $processort,
-      PROCESSORN => $processorn,
-      PROCESSORS => $processors
+      processort => $processort,
+      processorn => $processorn,
+      processors => $processors
 
     });
 

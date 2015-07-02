@@ -38,7 +38,7 @@ sub run {
     $domain = 'WORKGROUP' unless $domain;
 
     $common->setHardware({
-        WORKGROUP => $domain
+        workgroup => $domain
     });
 }
 

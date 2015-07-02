@@ -25,10 +25,10 @@ sub run {
   foreach (`pkginfo -l`) {
     if (/^\s*$/) {
       $common->addSoftware({
-          'NAME'          => $name,
-          'VERSION'       => $version,
-          'COMMENTS'      => $comments,
-          'PUBLISHER'      => $publisher,
+          'name'          => $name,
+          'version'       => $version,
+          'comments'      => $comments,
+          'publisher'      => $publisher,
           });
 
       $name = '';
@@ -60,10 +60,10 @@ sub run {
 		@tab = split(/;/, $chaine);
 		if (/^\/var\/sis\/(\S+).SIS/){
 				$common->addSoftware({
-					'VERSION'       => $tab[2],
-					'NAME'          => $tab[0]." ($1)",
-					'PUBLISHER'     => $tab[1],
-					'COMMENTS' 		=> $1,
+					'version'       => $tab[2],
+					'name'          => $tab[0]." ($1)",
+					'publisher'     => $tab[1],
+					'comments' 		=> $1,
 				});
 			}
 		

@@ -41,8 +41,8 @@ sub run {
   }
   
   $common->setHardware({
-      MEMORY => $memory,
-      SWAP => $swap 
+      memory => $memory,
+      swap => $swap
     });
 
 }

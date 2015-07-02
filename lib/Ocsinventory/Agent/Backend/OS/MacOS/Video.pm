@@ -41,10 +41,10 @@ sub run {
         $memory =~ s/ MB$//;
 
         $common->addVideo({
-                'NAME'        => $$video_names[$count],
-                'CHIPSET'     => $video->{'sppci_model'},
-                'MEMORY'      => $memory,
-                'RESOLUTION'  => $video->{'spdisplays_ndrvs'}[0]->{'spdisplays_resolution'},
+                'name'        => $$video_names[$count],
+                'chipset'     => $video->{'sppci_model'},
+                'memory'      => $memory,
+                'resolution'  => $video->{'spdisplays_ndrvs'}[0]->{'spdisplays_resolution'},
         });
 
 
@@ -56,8 +56,8 @@ sub run {
             $serial = $ioreg_serial if ($ioreg_name eq $display->{'_name'});
 
             $common->addMonitor({
-                'CAPTION'   => $display->{'_name'},
-                'SERIAL'    => $serial,
+                'caption'   => $display->{'_name'},
+                'serial'    => $serial,
             })
         }
 

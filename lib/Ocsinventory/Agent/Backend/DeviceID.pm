@@ -10,9 +10,9 @@ sub run {
   my $UsersLoggedIn = join "/", keys %user;
 
   if ($config->{old_deviceid}) {
-    $common->setHardware({ OLD_DEVICEID => $config->{old_deviceid} });
+    $common->setHardware({ old_deviceid => $config->{old_deviceid} });
   }
-  $common->setHardware({ DEVICEID => $config->{deviceid} });
+  $common->setHardware({ deviceid => $config->{deviceid} });
 
 }
 

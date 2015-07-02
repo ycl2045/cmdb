@@ -34,9 +34,9 @@ sub run {
   chomp($OSComment=`uname -v`) unless $OSComment; 
   
   $common->setHardware({
-      OSNAME => $OSName." ".$OSArchi,
-      OSCOMMENTS => $OSComment,
-      OSVERSION => $OSVersion,
+      osname => $OSName." ".$OSArchi,
+      oscomments => $OSComment,
+      osversion => $OSVersion,
     });
 }
 1;

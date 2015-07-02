@@ -24,7 +24,7 @@ sub run {
   
   chomp(my $DeviceType =`uname -m`);
 #  TODO$h->{'CONTENT'}{'HARDWARE'}{'DESCRIPTION'} = [ "$DeviceType/$uptime" ];
-  $common->setHardware({ DESCRIPTION => "$DeviceType/$uptime" });
+  $common->setHardware({ description => "$DeviceType/$uptime" });
 }
 
 1

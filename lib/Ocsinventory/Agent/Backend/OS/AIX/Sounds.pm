@@ -11,9 +11,9 @@ sub run {
 		if(/audio/i){
 			if(/^\S+\s([^:]+):\s*(.+?)(?:\(([^()]+)\))?$/i){
 			 $common->addSound({
-	  			'DESCRIPTION'  => $3,
-	  			'MANUFACTURER' => $2,
-	  			'NAME'     => $1,
+	  			'description'  => $3,
+	  			'manufacturer' => $2,
+	  			'name'     => $1,
 			});
 			}
 		}

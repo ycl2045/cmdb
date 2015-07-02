@@ -28,8 +28,8 @@ sub run {
 # Send it to inventory object
   $common->setHardware({
 
-      MEMORY =>  sprintf("%i",$PhysicalMemory/1024),
-      SWAP =>    sprintf("%i", $SwapFileSize/1024),
+      memory =>  sprintf("%i",$PhysicalMemory/1024),
+      swap =>    sprintf("%i", $SwapFileSize/1024),
 
     });
 }

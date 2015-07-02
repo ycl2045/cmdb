@@ -26,10 +26,10 @@ sub run {
     next if $entry[1] =~ /^device/;
 
     $common->addSoftware({
-	'COMMENTS'      => $entry[6],
-	'FOLDER'	=> $entry[0],
-	'NAME'          => $entry[1],
-	'VERSION'       => $entry[2],
+	'comments'      => $entry[6],
+	'folder'	=> $entry[0],
+	'name'          => $entry[1],
+	'version'       => $entry[2],
 	});
   }
 }

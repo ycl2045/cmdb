@@ -28,11 +28,11 @@ sub run {
            $free=$3;
            $fs=$6;
 	   $common->addDrives({
-               FREE => $free,
-               FILESYSTEM => $fs,
-               TOTAL => $total,
-               TYPE => $type,
-               VOLUMN => $lv,
+               free => $free,
+               filesystem => $fs,
+               total => $total,
+               type => $type,
+               volumn => $lv,
 				 });
 
 	};
@@ -45,11 +45,11 @@ sub run {
 	   $fs=$5;
 	# print "fs $fs lv $lv total $total free $free type $type\n";
         $common->addDrives({
-           FREE => $free,
-           FILESYSTEM => $fs,
-           TOTAL => $total,
-           TYPE => $type,
-           VOLUMN => $lv,
+           free => $free,
+           filesystem => $fs,
+           total => $total,
+           type => $type,
+           volumn => $lv,
 			     });
         };
       };

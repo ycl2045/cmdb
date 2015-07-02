@@ -30,10 +30,10 @@ sub run {
 	 if ((/^FC .+/) && $flag) {$flag=0;last}
 	 }	 	 
     $common->addSlot({
-	  DESCRIPTION =>  $description,
-	  DESIGNATION =>  $designation,
-	  NAME 		  =>  $name,
-	  STATUS	  =>  $status,
+	  description =>  $description,
+	  designation =>  $designation,
+	  name 		  =>  $name,
+	  statUS	  =>  $status,
 	});
   }
 }

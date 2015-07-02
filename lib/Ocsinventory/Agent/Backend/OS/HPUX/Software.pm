@@ -23,10 +23,10 @@ sub run {
       chomp( $software );
       if ( $software =~ /^ (\S+)\s(\S+)\s(.+)/ ) {
          $common->addSoftwares({
-                        'NAME'          => $1  ,
-                        'VERSION'       => $2 ,
+                        'name'          => $1  ,
+                        'version'       => $2 ,
                         'COMMENTS'      => $3 ,
-                        'PUBLISHER'     => "HP" ,
+                        'publisher'     => "HP" ,
 				  });
        }
     }

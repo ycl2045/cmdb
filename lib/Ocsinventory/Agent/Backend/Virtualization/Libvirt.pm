@@ -27,13 +27,13 @@ sub run {
 
             my $machine = {
 
-                MEMORY => $memory,
-                NAME => $name,
-                UUID => $uuid,
-                STATUS => $status,
-                SUBSYSTEM => "libvirt",
-                VMTYPE => $vmtype,
-                VCPU   => $vcpu,
+                memory => $memory,
+                name => $name,
+                uuid => $uuid,
+                status => $status,
+                subsystem => "libvirt",
+                vmtype => $vmtype,
+                vcpu   => $vcpu,
 
             };
 

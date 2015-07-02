@@ -41,13 +41,13 @@ sub run {
 			$flag=0;
 			$numslots = $numslots +1;
 			$common->addMemory({
-				CAPACITY => $capacity,	
-	  			DESCRIPTION => $description,
-				CAPTION => $caption,
-	  			NUMSLOTS => $numslots,
-	  			VERSION => $mversion,
-	  			TYPE => $type,
-	        		SERIALNUMBER=> $serial,	
+				capacity => $capacity,
+	  			description => $description,
+				caption => $caption,
+	  			numslots => $numslots,
+	  			version => $mversion,
+	  			type => $type,
+	        		serialnumber=> $serial,
 			})
 		}; 
 	}

@@ -18,9 +18,9 @@ sub run {
     foreach my $printer (@$data){
         next if($printer->{'_name'} =~ /^The\sprinters\slist\sis\sempty\.(.*)$/);
         $common->addPrinter({
-                NAME    => $printer->{'_name'},
-                DRIVER  => $printer->{'ppd'},
-		PORT	=> $printer->{'uri'},
+                name    => $printer->{'_name'},
+                driver  => $printer->{'ppd'},
+		port	=> $printer->{'uri'},
         });
     }
 

@@ -213,7 +213,7 @@ sub run {
     }
 
     $common->setHardware ({
-      VMSYSTEM => $status,
+      vmsystem => $status,
       });
 }
 

@@ -130,12 +130,12 @@ sub run {
           #print "Caption: " . $caption . " Description: " . $description . " Bank Number: " . $numslots . " DIMM Capacity: " .  $capacity . "MB\n";
           $module_count++;
           $common->addMemory({
-            CAPACITY => $capacity,
-            DESCRIPTION => $description,
-            CAPTION => $caption,
-            SPEED => $speed,
-            TYPE => $type,
-            NUMSLOTS => $numslots
+            capacity => $capacity,
+            description => $description,
+            caption => $caption,
+            speed => $speed,
+            type => $type,
+            numslots => $numslots
           })
         }
       }
@@ -174,12 +174,12 @@ sub run {
           #print "Caption: " . $caption . " Description: " . $description . " Bank Number: " . $numslots . " DIMM Capacity: " .  $capacity . "MB\n";
           $empty_slots++;
           $common->addMemory({
-            CAPACITY => $capacity,
-            DESCRIPTION => $description,
-            CAPTION => $caption,
-            SPEED => $speed,
-            TYPE => $type,
-            NUMSLOTS => $numslots
+            capacity => $capacity,
+            description => $description,
+            caption => $caption,
+            speed => $speed,
+            type => $type,
+            numslots => $numslots
           })
         }
       }
@@ -198,12 +198,12 @@ sub run {
         #print "Caption: " . $caption . " Description: " . $description . " Bank Number: " . $numslots . " DIMM Capacity: " .  $capacity . "MB\n";
         $module_count++;
         $common->addMemory({
-          CAPACITY => $capacity,
-          DESCRIPTION => "DIMM",
-          CAPTION => "Ram slot ".$numslots,
-          SPEED => $speed,
-          TYPE => $type,
-          NUMSLOTS => $numslots
+          capacity => $capacity,
+          description => "dimm",
+          caption => "ram slot ".$numslots,
+          speed => $speed,
+          type => $type,
+          numslots => $numslots
         })
       }
         # this is the caption line 
@@ -237,12 +237,12 @@ sub run {
           #print "Caption: " . $caption . " Description: " . $description . " Bank Number: " . $numslots . " DIMM Capacity: " .  $capacity . "MB\n";
           $empty_slots++;
           $common->addMemory({
-            CAPACITY => $capacity,
-            DESCRIPTION => $description,
-            CAPTION => $caption,
-            SPEED => $speed,
-            TYPE => $type,
-            NUMSLOTS => $numslots
+            capacity => $capacity,
+            description => $description,
+            caption => $caption,
+            speed => $speed,
+            type => $type,
+            numslots => $numslots
           })
         }
       }
@@ -257,12 +257,12 @@ sub run {
         #print "Caption: " . $caption . " Description: " . $description . " Bank Number: " . $numslots . " DIMM Capacity: " .  $capacity . "MB\n";
         $module_count++;
         $common->addMemory({
-          CAPACITY => $capacity,
-          DESCRIPTION => $description,
-          CAPTION => $caption,
-          SPEED => $speed,
-          TYPE => $type,
-          NUMSLOTS => $numslots
+          capacity => $capacity,
+          description => $description,
+          caption => $caption,
+          speed => $speed,
+          type => $type,
+          numslots => $numslots
         })
       }
     }
@@ -298,12 +298,12 @@ sub run {
           print "Caption: " . $caption . " Description: " . $description . " Bank Number: " . $numslots . " DIMM Capacity: " .  $capacity . "MB\n";
           $empty_slots++;
           $common->addMemory({
-            CAPACITY => $capacity,
-            DESCRIPTION => $description,
-            CAPTION => $caption,
-            SPEED => $speed,
-            TYPE => $type,
-            NUMSLOTS => $numslots
+            capacity => $capacity,
+            description => $description,
+            caption => $caption,
+            speed => $speed,
+            type => $type,
+            numslots => $numslots
           })
         }
       }

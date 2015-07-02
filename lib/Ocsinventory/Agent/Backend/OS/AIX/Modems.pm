@@ -12,8 +12,8 @@ sub run {
 	  my $name = $1;
 	  my $description = $2;
 	  $common->addModems({
-	  	'DESCRIPTION'  => $description,
-	  	'NAME'          => $name,
+	  	'description'  => $description,
+	  	'name'          => $name,
 	  });
     }
   }

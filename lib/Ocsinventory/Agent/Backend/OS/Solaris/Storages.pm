@@ -58,14 +58,14 @@ sub run {
         $type="SCSI";
       }
       $common->addStorages({
-	  NAME => $name,
-	  MANUFACTURER => $manufacturer,
-	  MODEL => $model,
-	  DESCRIPTION => $description,
-	  TYPE => $type,
-          FIRMWARE => $rev,
-          SERIALNUMBER => $sn,
-	  DISKSIZE => $capacity
+	  name => $name,
+	  manufacturer => $manufacturer,
+	  model => $model,
+	  description => $description,
+	  type => $type,
+          firmware => $rev,
+          serialnumber => $sn,
+	  disksize => $capacity
 	  });
 
       $manufacturer='';

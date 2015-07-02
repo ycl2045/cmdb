@@ -10,6 +10,18 @@ use POSIX ":sys_wait_h";
 # http://rt.cpan.org/Ticket/Display.html?id=38067
 use XML::Simple;
 
+eval {XMLout("<a>b</a>");};
+if ($@){
+  no strict 'refs';
+  ${*{"XML::SAX::"}{HASH}{'parsers'}} = sub {
+    return [ {
+      'Features' => {
+        'http://xml.org/sax/features/namespaces' => '1'
+       },
+       'Name' => 'XML::SAX::PurePerl'
+    }]
+  };
+}
 # END OF THE UGLY FIX!
 
 require Exporter;
@@ -126,10 +138,6 @@ sub run {
 
   $config->{config}{vardir} = $config->{config}{basevardir}."/.idcos";
 
-  if (!recMkdir ($config->{config}{vardir})) {
-    $logger->error("Failed to create ".$config->{config}{vardir}." directory: $!");
-  }
-
   if (-d $config->{config}{vardir}) {
     $config->{config}{accountconfig} = $config->{config}{vardir}."/ocsinv.conf";
     $config->{config}{accountinfofile} = $config->{config}{vardir}."/ocsinv.adm";
@@ -225,86 +233,86 @@ sub run {
 ################################# HERE WE GO !!! ###################################################
   while (1) {
 
-    my $exitcode = 0;
-    my $wait;
-    my $child;
+      my $exitcode = 0;
+      my $wait;
+      my $child;
 
-    if ($config->{config}{daemon} || $config->{config}{wait}) {
-      my $serverdelay;
-      if(($config->{config}{wait} eq 'server') || ($config->{config}{wait}!~/^\d+$/)){
-        $serverdelay = $accountconfig->get('PROLOG_FREQ')*3600;
+      if ($config->{config}{daemon} || $config->{config}{wait}) {
+        my $serverdelay;
+        if(($config->{config}{wait} eq 'server') || ($config->{config}{wait}!~/^\d+$/)){
+          $serverdelay = $accountconfig->get('PROLOG_FREQ')*3600;
 
-      } else {
-         $serverdelay = $config->{config}{wait};
+        } else {
+           $serverdelay = $config->{config}{wait};
+        }
+        $wait = int rand($serverdelay?$serverdelay:$config->{config}{delaytime});
+        $logger->info("Going to sleep for $wait second(s)");
+        sleep ($wait);
+
       }
-      $wait = int rand($serverdelay?$serverdelay:$config->{config}{delaytime});
-      $logger->info("Going to sleep for $wait second(s)");
-      sleep ($wait);
+
+
+      # Create an hook object to use handlers of modules.
+      my $hooks = new Ocsinventory::Agent::Hooks($context);
+
+      #Using start_handler hook
+      $hooks->run({name => 'start_handler'});
+
+      #################### Local Mode #######################
+  #    if ($config->{config}{stdout} || $config->{config}{local}) {
+
+        # TODO, avoid to create Backend at two different places
+        my $backend = new Ocsinventory::Agent::Backend ({
+          context => $context,
+        });
+
+         my $inventory = new Ocsinventory::Agent::XML::Inventory ({
+         # TODO, check if the accoun{info,config} are needed in localmode
+           backend => $backend,
+           context => $context,
+         });
+
+         #Launching inventory
+         $inventory->initialise();
+
+         #Using inventory_writer hook
+         $hooks->run({name => 'inventory_handler'}, $inventory);
+
+      if ($config->{config}{local}) {
+           $inventory->writeXML();
+      }else {
+      	############ I've to contact the server ########################"
+        	my $network = new Ocsinventory::Agent::Network ({
+          accountconfig => $accountconfig,
+          accountinfo => $accountinfo,
+          logger => $logger,
+          config => $config->{config},
+          common => $common,
+        });
+
+        #Adding the network object in $context
+        $context->{network}= $network;
+
+        #Formatting the XML
+        my $inventoryXML = $inventory->getContent();
+
+        #Sending Inventory
+        $network->sendXML({message => $inventoryXML});
+
+      }
+
+      #Using end_handler_hook
+      $hooks->run({name => 'end_handler'});
+
+      # Avoid zombie process
+      do {
+  	$child = waitpid(-1, WNOHANG);
+      } while $child > 0;
+
+      exit (0) unless $config->{config}{daemon};
 
     }
-
-
-    # Create an hook object to use handlers of modules.
-    my $hooks = new Ocsinventory::Agent::Hooks($context);
-
-    #Using start_handler hook
-    $hooks->run({name => 'start_handler'});
-
-    #################### Local Mode #######################
-#    if ($config->{config}{stdout} || $config->{config}{local}) {
-
-      # TODO, avoid to create Backend at two different places
-      my $backend = new Ocsinventory::Agent::Backend ({
-        context => $context,
-      });
-
-       my $inventory = new Ocsinventory::Agent::XML::Inventory ({
-       # TODO, check if the accoun{info,config} are needed in localmode
-         backend => $backend,
-         context => $context,
-       });
-
-       #Launching inventory
-       $inventory->initialise();
-
-       #Using inventory_writer hook
-       $hooks->run({name => 'inventory_handler'}, $inventory);
-
-    if ($config->{config}{local}) {
-         $inventory->writeXML();
-    }else {
-    	############ I've to contact the server ########################"
-      	my $network = new Ocsinventory::Agent::Network ({
-        accountconfig => $accountconfig,
-        accountinfo => $accountinfo,
-        logger => $logger,
-        config => $config->{config},
-        common => $common,
-      });
-
-      #Adding the network object in $context
-      $context->{network}= $network;
-
-      #Formatting the XML
-      my $inventoryXML = $inventory->getContent();
-
-      #Sending Inventory
-      $network->sendXML({message => $inventoryXML});
-
-    }
-
-    #Using end_handler_hook
-    $hooks->run({name => 'end_handler'});
-
-    # Avoid zombie process
-    do {
-	$child = waitpid(-1, WNOHANG);
-    } while $child > 0;
-
-    exit (0) unless $config->{config}{daemon};
-
-  }
-}
+ }
 
 ##########################################
 ############Functions#####################

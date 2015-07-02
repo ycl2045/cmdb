@@ -116,7 +116,7 @@ sub getContent {
     #Cleaning xmltags content after adding it o inventory
     $common->flushXMLTags();
     #print Dumper($self->{xmlroot});
-    my $clean_content = $json->encode($self->{xmlroot});
+    my $clean_content = $json->sort_by(sub { $JSON::PP::a cmp $JSON::PP::b })->encode($self->{xmlroot});
     return $clean_content;
   }
 }
@@ -128,6 +128,7 @@ Only for debugging purpose. Print the inventory on STDOUT.
 =cut
 sub printXML {
   my ($self, $args) = @_;
+
 
   if ($self->{isInitialised}) {
     print $self->getContent();

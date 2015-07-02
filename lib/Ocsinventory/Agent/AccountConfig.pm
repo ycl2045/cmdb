@@ -18,11 +18,14 @@ sub new {
 
     # Configuration reading
     $self->{xml} = {};
-
+    print "AccountConfig---";
+    print  $self->{config}->{accountconfig};
+    print "\n";
     if ($self->{config}->{accountconfig}) {
         if (! -f $self->{config}->{accountconfig}) {
             $logger->debug ('accountconfig file: `'. $self->{config}->{accountconfig}.
                 " doesn't exist. I create an empty one");
+
             $self->write();
         } else {
             eval {
@@ -41,7 +44,6 @@ sub get {
     my ($self, $name) = @_;
 
     my $logger = $self->{logger};
-
     return $self->{xml}->{$name} if $name;
     return $self->{xml};
 }

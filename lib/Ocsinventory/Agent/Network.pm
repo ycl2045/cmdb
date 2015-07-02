@@ -93,7 +93,7 @@ sub sendXML {
 
   my $req = HTTP::Request->new(POST => $self->{URI});
 
-  $req->header('Pragma' => 'no-cache', 'Content-type');
+  $req->header( 'Content-Type' => 'application/json' );
 
   $logger->debug ("sending XML");
 

@@ -59,7 +59,7 @@ sub run {
 	}
 
         $common->setHardware({
-                osname		=> $osname,
+                osname		=> $OSName,
                 oscomments	=> $OSComment,
                 osversion	=> $OSVersion,
 		uuid		=> $uuid,

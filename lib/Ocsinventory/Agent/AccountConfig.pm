@@ -18,9 +18,6 @@ sub new {
 
     # Configuration reading
     $self->{xml} = {};
-    print "AccountConfig---";
-    print  $self->{config}->{accountconfig};
-    print "\n";
     if ($self->{config}->{accountconfig}) {
         if (! -f $self->{config}->{accountconfig}) {
             $logger->debug ('accountconfig file: `'. $self->{config}->{accountconfig}.

@@ -17,8 +17,8 @@ called $inventory in general.
 
 =cut
 
-use XML::Simple;
-use Digest::MD5 qw(md5_base64);
+# use XML::Simple;
+# use Digest::MD5 qw(md5_base64);
 use Config;
 
 use Ocsinventory::Agent::Backend;
@@ -109,7 +109,7 @@ sub getContent {
   $self->{accountinfo}->setAccountInfo($self);
 
     #my $content = XMLout( $self->{xmlroot},RootName=>'content', XMLDecl => '<?xml version="1.0" encoding="UTF-8"?>', SuppressEmpty => undef );
-    
+
     #Cleaning XML to delete unprintable characters
     #my $clean_content=$common->cleanXml($content);
 
@@ -173,7 +173,7 @@ Compute the <CHECKSUM/> field. This information is used by the server to
 know which parts of the XML have changed since the last inventory.
 
 The is done thank to the last_file file. It has MD5 prints of the previous
-inventory. 
+inventory.
 
 =cut
 sub processChecksum {

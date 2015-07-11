@@ -9,26 +9,26 @@ use POSIX ":sys_wait_h";
 # THIS IS AN UGLY WORKAROUND FOR
 # http://rt.cpan.org/Ticket/Display.html?id=38067
 use XML::Simple;
-
-eval {XMLout("<a>b</a>");};
-if ($@){
-  no strict 'refs';
-  ${*{"XML::SAX::"}{HASH}{'parsers'}} = sub {
-    return [ {
-      'Features' => {
-        'http://xml.org/sax/features/namespaces' => '1'
-       },
-       'Name' => 'XML::SAX::PurePerl'
-    }]
-  };
-}
+#
+#eval {XMLout("<a>b</a>");};
+#if ($@){
+#  no strict 'refs';
+#  ${*{"XML::SAX::"}{HASH}{'parsers'}} = sub {
+#    return [ {
+#      'Features' => {
+#        'http://xml.org/sax/features/namespaces' => '1'
+#       },
+#       'Name' => 'XML::SAX::PurePerl'
+#    }]
+#  };
+#}
 # END OF THE UGLY FIX!
 
 require Exporter;
 
 use Ocsinventory::Logger;
 use Ocsinventory::Agent::XML::Inventory;
-use Ocsinventory::Agent::XML::Prolog;
+#use Ocsinventory::Agent::XML::Prolog;
 
 use Ocsinventory::Agent::Network;
 use Ocsinventory::Agent::Backend;
@@ -137,7 +137,8 @@ sub run {
   }
 
   $config->{config}{vardir} = $config->{config}{basevardir}."/.idcos";
-
+  recMkdir ($config->{config}{vardir});
+  
   if (-d $config->{config}{vardir}) {
     $config->{config}{accountconfig} = $config->{config}{vardir}."/ocsinv.conf";
     $config->{config}{accountinfofile} = $config->{config}{vardir}."/ocsinv.adm";

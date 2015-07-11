@@ -87,7 +87,7 @@ sub getContent {
   my $common = $self->{common};
 
   if ($self->{isInitialised}) {
-    $self->processChecksum();
+    #$self->processChecksum();
 
     #  checks for MAC, NAME and SSN presence
     my $macaddr = $self->{xmlroot}->{base_networks}[0]->{macaddr};

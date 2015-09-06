@@ -1,5 +1,6 @@
 package Ocsinventory::Agent::Backend::OS::Linux::Storages::ServeRaid;
 
+use warnings FATAL => 'all';
 use Ocsinventory::Agent::Backend::OS::Linux::Storages;
 
 # Tested on 2.6.* kernels

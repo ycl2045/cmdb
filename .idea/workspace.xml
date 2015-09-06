@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12ab7cff-3af9-46bc-84fb-11ea133d14d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/AccountConfig.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/AccountConfig.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Hooks.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Hooks.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Inventory.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Inventory.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Logger.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Logger.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/Lsilogic.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/Lsilogic.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/MacOS.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/MacOS.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Network.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Network.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Response.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Response.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/ServeRaid.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/ServeRaid.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/SimpleMessage.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/SimpleMessage.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages.pm" afterPath="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages.pm" />
+    </list>
+    <ignored path="ocsinventory-agent.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ocsinventory-agent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AccountConfig.pm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/AccountConfig.pm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0285286">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/Lsilogic.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/ServeRaid.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Logger.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/MacOS.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Network.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Hooks.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/Virtualization/VirtualBox.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Inventory.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Response.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/SimpleMessage.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent/AccountConfig.pm" />
+        <option value="$PROJECT_DIR$/lib/Ocsinventory/Agent.pm" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
+    <option name="y" value="24" />
+    <option name="width" value="1317" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ocsinventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocsinventory-agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ocsinventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="org.codinjutsu.tools.mongo.view.MongoConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ocsinventory-agent" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12ab7cff-3af9-46bc-84fb-11ea133d14d0" name="Default" comment="" />
+      <created>1440927384888</created>
+      <option name="number" value="Default" />
+      <updated>1440927384888</updated>
+      <workItem from="1440927386867" duration="20000" />
+      <workItem from="1440927421655" duration="1698000" />
+      <workItem from="1441070164369" duration="1487000" />
+      <workItem from="1441086345131" duration="455000" />
+      <workItem from="1441086813359" duration="7591000" />
+      <workItem from="1441504296811" duration="2222000" />
+      <workItem from="1441512056175" duration="4779000" />
+      <workItem from="1441523675266" duration="7094000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25346000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4737631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14162077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28245476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{hash}" />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="(list expression...)" />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+          <folding>
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="imports..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{hash}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+          <folding>
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="imports..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{hash}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/ServeRaid.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/Lsilogic.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6561562">
+          <caret line="38" column="78" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3138138">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux/Storages/ServeRaid.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25675675">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/LoggerBackend/Stderr.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2852853">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/LoggerBackend/Syslog.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3993994">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/LoggerBackend/File.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5705706">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Logger.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7387388">
+          <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Net/IP.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Common.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057057057">
+          <caret line="353" column="36" selection-start-line="353" selection-start-column="36" selection-end-line="353" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/MacOS.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057057057">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Linux.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17117117">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/AccountInfo.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0801458">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33150685">
+          <caret line="273" column="15" selection-start-line="273" selection-start-column="15" selection-end-line="273" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Hooks.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33150685">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/Virtualization/VirtualBox.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48767123">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Response.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48767123">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/SimpleMessage.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33150685">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Response/Inventory.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7808219">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Backend/OS/Generic/Packaging/ByHand.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5703565">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Network.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8288288">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <marker date="1441520967466" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441520967466" expanded="false" signature="-1:-1" placeholder="imports..." />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{hash}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441520967466" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/Config.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2252252">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{hash}" />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="(list expression...)" />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441522712322" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37087086">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="imports..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{hash}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441530969720" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/XML/Inventory.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4264264">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="imports..." />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="# comments..." />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="(list expression...)" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="false" signature="-1:-1" placeholder="= POD block =" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+            <marker date="1441521279330" expanded="true" signature="-1:-1" placeholder="{code block}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Ocsinventory/Agent/AccountConfig.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0285286">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

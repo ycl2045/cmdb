@@ -6,12 +6,12 @@ require Exporter;
 our @ISA = qw /Exporter/;
 our @EXPORT = qw /get_sysprofile_devices_names/;
 
-
+#注销对macos的采集
 sub check {
 	my $r;
 	# we check far darwin because that's the _real_ underlying OS
 	$r = 1 if (uc($^O) =~ /^DARWIN$/);
-	return($r);
+	return(0);
 }
 
 sub run {

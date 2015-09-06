@@ -10,7 +10,7 @@ sub new {
   my (undef, $context) = @_;
 
   my $self = {};
-  $self->{accountinfo} = $context->{accountinfo};
+  #$self->{accountinfo} = $context->{accountinfo};
   $self->{accountconfig} = $context->{accountconfig};
   my $logger = $self->{logger}=$context->{logger};
 

@@ -1,5 +1,7 @@
 package Ocsinventory::Logger;
 # TODO use Log::Log4perl instead.
+use strict;
+use warnings;
 use Carp;
 sub new {
 
@@ -31,7 +33,7 @@ sub new {
         push @loadedMbackends, $_;
     }
 
-    my $obj = new $backend ({
+    my $obj = new $backend( {
       config => $self->{config},
       });
     push @{$self->{backend}}, $obj if $obj;

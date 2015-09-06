@@ -12,7 +12,7 @@ sub new {
   my $self = {};
 
   $self->{accountconfig} = $params->{context}->{accountconfig};
-  $self->{accountinfo} = $params->{context}->{accountinfo};
+  #$self->{accountinfo} = $params->{context}->{accountinfo};
   $self->{config} = $params->{context}->{config};
   $self->{inventory} = $params->{inventory};
 
@@ -183,7 +183,7 @@ sub initModList {
         $self->{modules}->{$m}->{checkFunc},
         {
             accountconfig => $self->{accountconfig},
-            accountinfo => $self->{accountinfo},
+            #accountinfo => $self->{accountinfo},
             config => $self->{config},
             inventory => $self->{inventory},
             logger => $self->{logger},
@@ -271,7 +271,7 @@ sub runMod {
           $self->{modules}->{$m}->{runFunc},
           {
               accountconfig => $self->{accountconfig},
-              accountinfo => $self->{accountinfo},
+              #accountinfo => $self->{accountinfo},
               config => $self->{config},
               common => $common,
               logger => $logger,

@@ -14,7 +14,7 @@ sub new {
 
   my $self = {};
   $self->{config} = $params->{config};
-  $self->{accountinfo} = $params->{accountinfo};
+  #$self->{accountinfo} = $params->{accountinfo};
  
   die unless ($self->{config}->{deviceid}); #XXX
 
@@ -41,7 +41,7 @@ sub set {
 sub getContent {
   my ($self, $args) = @_;
 
-  $self->{accountinfo}->setAccountInfo($self);
+  #$self->{accountinfo}->setAccountInfo($self);
   my $content=XMLout( $self->{xmlroot}, RootName => 'REQUEST', XMLDecl => '<?xml version="1.0" encoding="UTF-8"?>',
     SuppressEmpty => undef );
 

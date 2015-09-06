@@ -12,7 +12,7 @@ sub new {
     my $self = {};
 
     $self->{accountconfig} = $params->{accountconfig};
-    $self->{accountinfo} = $params->{accountinfo};
+    #$self->{accountinfo} = $params->{accountinfo};
     $self->{content}  = $params->{content};
     $self->{config} = $params->{config};
     $self->{common} = $params->{common};

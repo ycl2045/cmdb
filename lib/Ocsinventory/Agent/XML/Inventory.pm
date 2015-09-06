@@ -34,7 +34,7 @@ sub new {
   my (undef, $params) = @_;
 
   my $self = {};
-  $self->{accountinfo} = $params->{context}->{accountinfo};
+  #$self->{accountinfo} = $params->{context}->{accountinfo};
   $self->{accountconfig} = $params->{context}->{accountconfig};
   $self->{backend} = $params->{backend};
   $self->{common} = $params->{context}->{common};
@@ -106,7 +106,7 @@ sub getContent {
   $self->{xmlroot}{_metadata}{deviceid} = $self->{config}->{deviceid};
   $self->{xmlroot}{_metadata}{version} = "1.0";
 
-  $self->{accountinfo}->setAccountInfo($self);
+  #$self->{accountinfo}->setAccountInfo($self);
 
     #my $content = XMLout( $self->{xmlroot},RootName=>'content', XMLDecl => '<?xml version="1.0" encoding="UTF-8"?>', SuppressEmpty => undef );
 

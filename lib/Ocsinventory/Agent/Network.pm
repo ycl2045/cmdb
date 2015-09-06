@@ -14,7 +14,7 @@ sub new {
   my $self = {};
 
   $self->{accountconfig} = $params->{accountconfig};
-  $self->{accountinfo} = $params->{accountinfo};
+  # $self->{accountinfo} = $params->{accountinfo};
   $self->{common} = $params->{common};
 
   my $logger = $self->{logger} = $params->{logger};
@@ -138,7 +138,7 @@ sub getXMLResp {
   $tmp->import();
   my $response = $tmp->new ({
      accountconfig => $self->{accountconfig},
-     accountinfo => $self->{accountinfo},
+     # accountinfo => $self->{accountinfo},
      content => $content,
      logger => $logger,
      config => $self->{config},

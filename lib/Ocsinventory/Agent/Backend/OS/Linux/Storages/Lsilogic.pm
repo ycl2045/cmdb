@@ -1,5 +1,6 @@
 package Ocsinventory::Agent::Backend::OS::Linux::Storages::Lsilogic;
 
+use warnings;
 use Ocsinventory::Agent::Backend::OS::Linux::Storages;
 # Tested on 2.6.* kernels
 #

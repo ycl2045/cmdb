@@ -6,6 +6,8 @@ use warnings;
 # This file will be overwrite and is not designed to be changed by the user
 
 # DESPITE ITS NAME, ACCOUNTCONFIG IS NOT A CONFIG FILE!
+use JSON qw( );
+use Data::Dumper;
 
 sub new {
     my (undef,$params) = @_;
@@ -25,12 +27,7 @@ sub new {
 
             $self->write();
         } else {
-            eval {
-                $self->{xml} = XML::Simple::XMLin(
-                    $self->{config}->{accountconfig},
-                    SuppressEmpty => undef
-                );
-            };
+            $self->read($self->{config}->{accountconfig});
         }
     }
 
@@ -41,7 +38,7 @@ sub get {
     my ($self, $name) = @_;
 
     my $logger = $self->{logger};
-    return $self->{xml}->{$name} if $name;
+    return $self->{xml}{CONF}{$name} if $name;
     return $self->{xml};
 }
 
@@ -61,8 +58,13 @@ sub write {
     my $logger = $self->{logger};
 
     return unless $self->{config}->{accountconfig};
-    my $xml = XML::Simple::XMLout( $self->{xml} , RootName => 'CONF',
-        NoAttr => 1 );
+    my %conf;
+    $conf{CONF} = $self->{xml};
+    my $json_obj = new JSON;
+    my $xml = $json_obj->pretty->encode(\%conf);
+
+    #my $xml = XML::Simple::XMLout( $self->{xml} , RootName => 'CONF',
+    #    NoAttr => 1 );
 
     my $fault;
     if (!open CONF, ">".$self->{config}->{accountconfig}) {
@@ -84,4 +86,21 @@ sub write {
     }
 }
 
+
+sub read {
+    my ($self,$filename) = @_;
+    $self->{xml} = {};
+
+    my $json_text ;
+
+    if(open(Myfile,$filename)){
+
+    while(<Myfile>){
+       $json_text .= "$_";
+    }
+    }
+    my $json = JSON->new->allow_nonref;
+    $self->{xml} = $json->utf8->decode($json_text);
+    return $self->{xml}
+}
 1;

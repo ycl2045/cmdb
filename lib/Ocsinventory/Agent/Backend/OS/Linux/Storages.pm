@@ -1,6 +1,7 @@
 package Ocsinventory::Agent::Backend::OS::Linux::Storages;
 
 use strict;
+use warnings FATAL => 'all';
 
 sub check {1}
 

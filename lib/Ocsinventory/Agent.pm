@@ -8,7 +8,7 @@ use POSIX ":sys_wait_h";
 
 # THIS IS AN UGLY WORKAROUND FOR
 # http://rt.cpan.org/Ticket/Display.html?id=38067
-use XML::Simple;
+#use XML::Simple;
 #
 #eval {XMLout("<a>b</a>");};
 #if ($@){
@@ -33,7 +33,7 @@ use Ocsinventory::Agent::XML::Inventory;
 use Ocsinventory::Agent::Network;
 use Ocsinventory::Agent::Backend;
 use Ocsinventory::Agent::AccountConfig;
-use Ocsinventory::Agent::AccountInfo;
+#use Ocsinventory::Agent::AccountInfo;
 use Ocsinventory::Agent::Config;
 
 use Ocsinventory::Agent::Hooks;
@@ -94,47 +94,12 @@ sub run {
     $logger->info("You should run this program as super-user.");
   }
 
-  if (not $config->{config}{scanhomedirs}) {
-    $logger->debug("--scan-homedirs missing. Don't scan user directories");
-  }
-
-  if ($config->{config}{nosoft}) {
-    $logger->info("the parameter --nosoft is deprecated and may be removed in a future release, please use --nosoftware instead.");
-    $config->{config}{nosoftware} = 1
-  }
-
-  # desactivate local mode even if it is set in config file or command line
-  if (defined($config->{config}{nolocal})) {
-    undef $config->{config}{'local'};
-  }
-
-
-  # TODO put that in Ocsinventory::Agent::Config
-  if (!$config->{config}{'stdout'} && !$config->{config}{'local'} && $config->{config}{server} !~ /^http(|s):\/\//) {
-    $logger->debug("the --server passed doesn't have a protocol, assume http as default");
-    $config->{config}{server} = "http://".$config->{config}{server}.'/ocsinventory';
-  }
-
 
 ######################## Objects initilisation ###############################################################
 
 # The agent can contact different servers. Each server accountconfig is
 # stored in a specific file:
-  if (!recMkdir ($config->{config}{basevardir})) {
 
-    if (! -d $ENV{HOME}."/.ocsinventory/var") {
-      $logger->info("Failed to create ".$config->{config}{basevardir}." directory: $!. ".
-      "I'm going to use the home directory instead (~/.ocsinventory/var).");
-    }
-
-    $config->{config}{basevardir} = $ENV{HOME}."/.ocsinventory/var";
-    if (!recMkdir ($config->{config}{basevardir})) {
-      $logger->error("Failed to create ".$config->{config}{basedir}." directory: $!".
-      "The HOSTID will not be written on the harddrive. You may have duplicated ".
-      "entry of this computer in your OCS database");
-    }
-    $logger->debug("var files are stored in ".$config->{config}{basevardir});
-  }
 
   $config->{config}{vardir} = $config->{config}{basevardir}."/.idcos";
   recMkdir ($config->{config}{vardir});
@@ -176,12 +141,12 @@ sub run {
    $accountconfig->set('DEVICEID',$config->{config}{deviceid});
  }
 
- my $accountinfo = new Ocsinventory::Agent::AccountInfo({
-   logger => $logger,
- # TODOparams => $params,
-   config => $config->{config},
-   common => $common,
- });
+# my $accountinfo = new Ocsinventory::Agent::AccountInfo({
+#   logger => $logger,
+# # TODOparams => $params,
+#   config => $config->{config},
+#   common => $common,
+# });
 
   # --lazy
   if ($config->{config}{lazy}) {
@@ -225,7 +190,7 @@ sub run {
     version => $config->{VERSION},
     config => $config->{config},
     accountconfig => $accountconfig,
-    accountinfo => $accountinfo,
+   # accountinfo => $accountinfo,
     logger => $logger,
     common => $common,
   #OCS_AGENT_CMDL => "TOTO", # TODO cmd line parameter changed with the unified agent
@@ -285,7 +250,7 @@ sub run {
       	############ I've to contact the server ########################"
         	my $network = new Ocsinventory::Agent::Network ({
           accountconfig => $accountconfig,
-          accountinfo => $accountinfo,
+          #accountinfo => $accountinfo,
           logger => $logger,
           config => $config->{config},
           common => $common,

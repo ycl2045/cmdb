@@ -12,11 +12,16 @@ sub run {
   my $params = shift;
   my $common = $params->{common};
 
-  my %user;
   # Logged on users
-  for(`who`){
-    my $user = $1 if /^(\S+)./;
-    $common->addUser ({ login => $user });
+  for(`cat /etc/passwd`){
+    my($user, $passwd, $uid, $gid, $gcos, $home, $shell) = split(/:/);
+    $common->addUser ({ login => $user,
+    uid=>$uid,
+    gid=>$gid,
+    comment=>$gcos,
+    home=>$home,
+    shell=>$shell,
+    });
   }
 
 }

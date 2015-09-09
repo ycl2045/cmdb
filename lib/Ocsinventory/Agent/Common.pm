@@ -485,28 +485,13 @@ sub addUser {
   my ($self, $args) = @_;
   my $xmltags = $self->{xmltags};
 
-  my $login = $args->{login};
-
-  return unless $login;
-
-  # Is the login, already in the XML ?
-  foreach my $user (@{$xmltags->{base_users}}) {
-      return if $user->{login} eq $login;
-  }
-
-  push @{$xmltags->{base_users}},
-  {
-      login => $login
-  };
-  my $userString = $xmltags->{base_hardware}->{userid} || "";
-
-  $userString .= '/' if $userString;
-  $userString .= $login;
-
-  $self->setHardware ({
-    userid => $userString,
-  }, 1);
-
+    my $content = {};
+    foreach my $key (qw/login uid gid comment home shell/){
+    if (exists $args->{$key}){
+        $content->{$key} = $args->{$key};
+    }
+    }
+    push @{$xmltags->{base_users}},$content;
 }
 
 =item addPrinter()

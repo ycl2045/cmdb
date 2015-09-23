@@ -14,7 +14,7 @@ use strict;
 
 sub check {
 
-  my $device;
+  my $device = "";
 # Do we have smartctl ?
   if (can_run('smartctl')) {
     foreach my $node (glob("/dev/sd?")) {

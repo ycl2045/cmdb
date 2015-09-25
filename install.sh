@@ -14,8 +14,6 @@ cp -rf lib $IDCOS_HOME/ocsinventory-agent
 cp -rf cmd/ocsinventory-agent  $IDCOS_HOME/bin
 
 
-echo "export PATH=$PATH:$IDCOS_HOME/bin" ~/.bash_profile
+echo "export PATH=$PATH:$IDCOS_HOME/bin" >> ~/.bash_profile
 
-cd ~
-
-. .bash_profile
+. ~/.bash_profile

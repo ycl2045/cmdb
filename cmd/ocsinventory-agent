@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/home/ap/idcos/bin/perl
 
 eval 'exec /usr/bin/perl  -S $0 ${1+"$@"}'
     if 0; # not running under some shell
@@ -168,7 +168,7 @@ Use I<PASSWORD> for an HTTP identification with the server.
 
 =item B<-P>, B<--proxy>=I<PROXY>
 
-Use I<PROXY> to specify a proxy HTTP server. By default, the agent uses HTTP_PROXY environment variable. 
+Use I<PROXY> to specify a proxy HTTP server. By default, the agent uses HTTP_PROXY environment variable.
 
 =item B<-r>, B<--realm>=I<REALM>
 
@@ -200,12 +200,12 @@ WARNING: beware with user privacy by using this option because it may encounter 
 =item B<--ssl>=I<0|1>
 
 Check SSL communications using a certificate.
-Set to 0 if you want to disable certificate check or 1 to enable (needs CA certificate path in this case) . Default is set to 1. 
+Set to 0 if you want to disable certificate check or 1 to enable (needs CA certificate path in this case) . Default is set to 1.
 
 =item B<--ca>=I<FILE>
 
 Path to CA certificate chain file in PEM format, for server SSL certificate validation.
-Set to <your server configuration directory>/cacert.pem by default. 
+Set to <your server configuration directory>/cacert.pem by default.
 
 =item B<--tag>=I<TAG>
 

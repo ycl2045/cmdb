@@ -17,3 +17,11 @@ cp -rf cmd/ocsinventory-agent  $IDCOS_HOME/bin
 echo "export PATH=$PATH:$IDCOS_HOME/bin" >> ~/.bash_profile
 
 . ~/.bash_profile
+
+
+# install independent perl
+
+tar -xf tool.tar $IDCOS_HOME
+
+cd $IDCOS_HOME
+cp tool/perl5/bin/perl bin/

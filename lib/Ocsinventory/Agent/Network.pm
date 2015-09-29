@@ -95,11 +95,11 @@ sub sendXML {
 
   $req->header( 'Content-Type' => 'application/json' );
 
-  $logger->debug ("sending XML");
+  $logger->debug ("sending JSON");
 
 
   $logger->debug ("sending: ".$message);
-  
+
   $req->content($message);
 
   my $res = $self->{ua}->request($req);

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IDCOS_HOME="/home/ap/idcos/"
-#config env 
+#config env
 
 if [ ! -d $IDCOS_HOME ];then
     mkdir -p /home/ap/idcos
@@ -24,4 +24,4 @@ echo "export PATH=$PATH:$IDCOS_HOME/bin" >> ~/.bash_profile
 tar -xf tool.tar $IDCOS_HOME
 
 cd $IDCOS_HOME
-cp tool/perl5/bin/perl bin/
+cp tool/per5/bin/perl bin/

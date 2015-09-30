@@ -103,7 +103,7 @@ sub run {
 
   $config->{config}{vardir} = $config->{config}{basevardir}."/.idcos";
   recMkdir ($config->{config}{vardir});
-  
+
   if (-d $config->{config}{vardir}) {
     $config->{config}{accountconfig} = $config->{config}{vardir}."/ocsinv.conf";
     $config->{config}{accountinfofile} = $config->{config}{vardir}."/ocsinv.adm";
@@ -319,4 +319,3 @@ sub isAgentAlreadyRunning {
 
 
 1;
-

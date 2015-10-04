@@ -1,0 +1,550 @@
+=head2 Sun Oct  4 15:53:54 2015: C<Module> L<JSON|JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.90>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:57:30 2015: C<Module> L<MIME::Base64|MIME::Base64>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.15>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:57:35 2015: C<Module> L<Digest::MD5|Digest::MD5>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.54>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:57:42 2015: C<Module> L<URI|URI>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.69>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:57:53 2015: C<Module> L<HTML::Tagset|HTML::Tagset>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:58:00 2015: C<Module> L<HTML::Parser|HTML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.71>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:59:15 2015: C<Module> L<ExtUtils::MakeMaker|ExtUtils::MakeMaker>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 7.10>
+
+=item *
+
+C<EXE_FILES: bin/instmodsh>
+
+=back
+
+=head2 Sun Oct  4 15:59:34 2015: C<Module> L<Socket|Socket>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.020>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 15:59:36 2015: C<Module> L<Net|Net>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:01:40 2015: C<Module> L<Try::Tiny|Try::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.22>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:01:41 2015: C<Module> L<Test::Fatal|Test::Fatal>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.014>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:06:28 2015: C<Module> L<LWP::MediaTypes|LWP::MediaTypes>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:06:30 2015: C<Module> L<Encode::Locale|Encode::Locale>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.05>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:06:33 2015: C<Module> L<IO::HTML|IO::HTML>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.001>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:06:35 2015: C<Module> L<HTTP::Date|HTTP::Date>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:06:39 2015: C<Module> L<HTTP::Message|HTTP::Message>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:23:54 2015: C<Module> L<Data::Dump|Data::Dump>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:26:54 2015: C<Module> L<File::Listing|File::Listing>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.04>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:27:24 2015: C<Module> L<HTTP::Cookies|HTTP::Cookies>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:27:41 2015: C<Module> L<HTTP::Daemon|HTTP::Daemon>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:27:54 2015: C<Module> L<HTTP::Negotiate|HTTP::Negotiate>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:28:04 2015: C<Module> L<Net::HTTP|Net::HTTP>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.09>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:28:18 2015: C<Module> L<WWW::RobotRules|WWW::RobotRules>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Oct  4 16:30:04 2015: C<Module> L<LWP|LWP>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.06>
+
+=item *
+
+C<EXE_FILES: bin/lwp-request bin/lwp-mirror bin/lwp-download bin/lwp-dump>
+
+=back
+
+=head2 Sun Oct  4 16:30:46 2015: C<Module> L<LWP|LWP>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/yunji/idcos-collect-script/tool/perl/lib/site_perl/5.14.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.13>
+
+=item *
+
+C<EXE_FILES: bin/lwp-request bin/lwp-mirror bin/lwp-download bin/lwp-dump>
+
+=back
+
